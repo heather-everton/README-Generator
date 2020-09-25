@@ -1,5 +1,5 @@
 // function to generate markdown for README
-const generateMarkdown = (projectName) => {
+const generateMarkdown = (pageContent) => {
   return `
   <!DOCTYPE html> 
   <html lang="en"> 

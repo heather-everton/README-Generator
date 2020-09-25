@@ -1,13 +1,29 @@
-const readmeDataArgs = process.argv.slice(2, process.argv.length);
-const [projectName] = readmeDataArgs;
- 
-// const inquirer = require('inquirer');
-const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown.js');
+const inquirer = require('inquirer');
+// const fs = require('fs');
+
+// const generateMarkdown = require('./utils/generateMarkdown.js');
+
+// const pageContent = generateMarkdown(projectName);
+
+// fs.writeFile('./README.md', pageContent, err => {
+//   if (err) throw err;
+
+//   console.log('Readme complete! Check out README.md to see the output!');
+// });
+
 
 // // array of questions for user
 // const questions = [
-
+    inquirer
+    .prompt([
+      {
+        type: 'input',
+        name: 'title',
+        message: 'What is your project title?'
+      }
+    ])
+    .then(answers => console.log(answers));
+  
 // ];
 
 // // function to write README file
@@ -32,10 +48,3 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // const generatePage = (projectName) => `ProjectName: ${projectName}`;
 // console.log(generatePage(projectName));
-  
-  fs.writeFile('README.md', generateMarkdown(projectName), err => {
-    if (err) throw err;
-  
-    console.log('Readme complete! Check out README.md to see the output!');
-  });
-  
