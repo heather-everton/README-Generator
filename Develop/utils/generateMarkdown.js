@@ -1,26 +1,38 @@
-// function to generate markdown for README
-const generateMarkdown = (pageContent) => {
-  return `
-  <!DOCTYPE html> 
-  <html lang="en"> 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>${projectName}</title>
-  </head>
+function generateMarkdown(answers) {
+  return `# ${answers.title}
+## Description
+${answers.description}
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Badges](#badges)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+## Installation
+To install necessary dependencies, run the following command:
+\`\`\`
+${answers.installation}
+\`\`\`
+## Usage
+${answers.usage}
 
-  <body>
-    <h1>${projectName}</h1>
-  </body>
-  </html>
-  `;
-};
+## License
+${answers.license}
 
-// function generateMarkdown(data) {
-//   return `# ${data.title}
+## Badges
+![badmath](https://img.shields.io/badge/license-${answers.license}-blue)
 
-// `;
-// }
+## Contributing
+${answers.contributing}
 
+## Tests
+To run tests, run the following command:
+\`\`\`
+${answers.test}
+\`\`\`
+## Questions
+`;
+}
 module.exports = generateMarkdown;
