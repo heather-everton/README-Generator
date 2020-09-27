@@ -15,6 +15,32 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
         return inquirer.prompt([
             {
                 type: 'input',
+                name: 'email',
+                message: 'What is your email address?',
+                validate: nameInput => {
+                    if (nameInput) {
+                    return true;
+                    } else {
+                    console.log('Please enter your email address');
+                    return false;
+                    }
+                }
+            },
+            {
+                type: 'input',
+                name: 'github',
+                message: 'What is your GitHub username?',
+                validate: nameInput => {
+                    if (nameInput) {
+                    return true;
+                    } else {
+                    console.log('Please enter your GitHub username');
+                    return false;
+                    }
+                }
+            },
+            {
+                type: 'input',
                 name: 'title',
                 message: 'What is your project title?',
                 validate: nameInput => {

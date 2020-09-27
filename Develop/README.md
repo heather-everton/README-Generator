@@ -1,33 +1,33 @@
-# readme generator
+# Space Time Researcher
+  ![badmath](https://img.shields.io/badge/license-MIT-blue)
+
 ## Description
-this is a template that will generate a readme automatically for you. Simply answer the questions and your file will be created.
+this allows students to research all about space in a safe online environment learning directly from NASA!
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Badges](#badges)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
 To install necessary dependencies, run the following command:
 ```
-You'll need to run this in the terminal and make sure you have node installed first. 
+install xyz
 ```
 ## Usage
-To use this you'll simply enter node index and it will ask you the questions.
+usage abc
 
 ## License
-undefined
-
-## Badges
-![badmath](https://img.shields.io/badge/license-undefined-blue)
+MIT
 
 ## Contributing
 undefined
+
 ## Tests
 To run tests, run the following command:
 ```
-undefined
+testing hij
 ```
 ## Questions
+If you have any questions about the repo, open an issue or contact me directly at heathereverton88@gmail.com. You can find more of my work at [heather-everton](https://github.com/heather-everton/).
