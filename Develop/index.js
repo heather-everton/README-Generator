@@ -86,7 +86,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
             },
             {
                 type: 'list',
-                name: 'licenses',
+                name: 'license',
                 message: 'Choose a license: (required)',
                 choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'ISC', 'BSD 2-Clause', 'BSD 3-Clause', 'GNU GPLv2', 'GNU AGPLv3', 'GNU LGPLv3', 'MPL-2.0', 'Boost 1.0', 'CCO 1.0', 'EPL 1.0', 'GNU FDL v1.3', 'IPL 1.0', 'ODC BY', 'ODbL', 'PDDL', 'Perl', 'Artistic 2.0', 'OFL 1.1', 'Unlicense'], 
                 validate: nameInput => {
