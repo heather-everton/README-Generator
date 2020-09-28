@@ -94,7 +94,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
             },
             {
                 type: 'input',
-                name: 'contribution',
+                name: 'contributing',
                 message: 'Enter the contribution guidelines: (required)', 
                 validate: nameInput => {
                     if (nameInput) {
