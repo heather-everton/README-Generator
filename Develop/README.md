@@ -1,5 +1,5 @@
 # README Generator
-  ![badmath](https://img.shields.io/badge/license-Apache 2.0-blue)
+  ![badmath](https://img.shields.io/badge/license-Apache_2.0-blue)
 
 ## Description
 This is a simple Node.js application that can generate a professioinal README file for each of your projects. 
@@ -19,10 +19,10 @@ npm install, npm install inquirer
 This will generate a simple README that can be uased as a professional template for each of your projects. Use "node index" to run the file. README will be produced in the "develop/" folder.
 
 ## License
-Apache 2.0
+Apache_2.0
 
 ## Contributing
-undefined
+If you're interested in contributing to this project feel free to reach out to me via email.
 
 ## Tests
 To run tests, run the following command:
