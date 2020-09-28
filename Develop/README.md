@@ -23,7 +23,7 @@ Apache_2.0
 
 ## Contributing
 If you're interested in contributing to this project feel free to reach out to me via email.
-
+  
 ## Tests
 To run tests, run the following command:
 ```
