@@ -1,5 +1,5 @@
 # README Generator
-  ![badmath](https://img.shields.io/badge/license-Apache 2.0-blue)
+  ![badmath](https://img.shields.io/badge/license-Apache2.0-blue)
 
 ## Description
 This is a simple Node.js application that can generate a professioinal README file for each of your projects. 
