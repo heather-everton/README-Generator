@@ -4,7 +4,7 @@
 ## Description
 This is a simple Node.js application that can generate a professioinal README file for each of your projects. 
 
-![Image](/Develop/assets/images/ScreenShotREADME1.jpg)
+<img src="./Develop/assets/images/ScreenShotREADME1.jpg" alt="README Generator" width="100%" height="100%">
 
 <img src="./Develop/assets/images/ScreenShotREADME2.jpg" alt="README Generator" width="100%" height="100%">
 
