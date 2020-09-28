@@ -1,14 +1,14 @@
 # README Generator
-  ![badmath](https://img.shields.io/badge/license-Apache 2.0-blue)
+  ![badmath](https://img.shields.io/badge/license-Apache2.0-blue)
 
 ## Description
 This is a simple Node.js application that can generate a professioinal README file for each of your projects. 
 
 <a href="https://github.com/heather-everton/README-Generator" rel="nofollow" >
-    <img src="./assets/images/ScreenShotREADME1.JPG" alt="README Generator" width="100%" height="100%">
+    <img src=".develop/assets/images/ScreenShotREADME1.JPG" alt="README Generator" width="100%" height="100%">
 </a>
 
-<img src="./assets/images/ScreenShotREADME2.JPG" alt="README Generator" width="100%" height="100%">
+<img src=".develop/assets/images/ScreenShotREADME2.JPG" alt="README Generator" width="100%" height="100%">
 
 <a href="https://github.com/heather-everton/README-Generator"><strong>Explore the docs »</strong></a>
 <br />
